@@ -1,0 +1,78 @@
+#tituloBarra {
+	color: #FFFFFF;
+}
+
+#slides {
+	width: 100%;
+	height: 100%;
+		color: black;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+
+.carousel-indicators li {/* este codigo css sirve para cambiar los colores de los indicators (las pelotitas que aparecen indicando las slides)*/
+  background-color: #999;
+  background-color: rgba(70,70,70,.25);
+}
+
+.carousel-indicators .active {/* este codigo css sirve para cambiar los colores del indicator que esta activo */
+  background-color: #444;
+}
+
+
+
+.dark-grey {/* color gris oscuro para poder contrastar con el fondo claro (se aplica a las flechas de control glyphicon)*/
+	color: #333333;
+}
+
+.gradients {
+
+background: rgb(255,248,127); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZjg3ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjYwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmY1NzAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(left, rgba(255,248,127,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 60%, rgba(255,245,112,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,248,127,1)), color-stop(40%,rgba(255,255,255,1)), color-stop(60%,rgba(255,255,255,1)), color-stop(100%,rgba(255,245,112,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(255,248,127,1) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 60%,rgba(255,245,112,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(255,248,127,1) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 60%,rgba(255,245,112,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(255,248,127,1) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 60%,rgba(255,245,112,1) 100%); /* IE10+ */
+background: linear-gradient(to right, rgba(255,248,127,1) 0%,rgba(255,255,255,1) 40%,rgba(255,255,255,1) 60%,rgba(255,245,112,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff87f', endColorstr='#fff570',GradientType=1 ); /* IE6-8 */
+
+}
+
+.carousel-caption p {
+	color: black;
+	font-weight: 0.5em;
+	text-shadow: 0px 0px 0px;
+}
+
+.carousel .item {
+	background-color: transparent;
+
+}
+
+.slidePhoto{
+	height: 50em;
+}
+
+.slideSize {
+		width: 100%;
+	height: 50em;
+}
+
+.carousel-caption h1 {
+	color: black;
+	
+}
+
+#footer {
+	text-align: center;
+}
+
+#slideLogo {
+	height: 15%;
+	width: 15%;
+}
